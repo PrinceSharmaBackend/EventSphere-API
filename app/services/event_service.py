@@ -51,6 +51,8 @@ async def get_events(
 
     return result.scalars().all()
 
+
+
 async def get_event_by_id(
     db: AsyncSession,
     event_id: int
